@@ -7,186 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74C922232AE9D5F3005ED280 /* Infrastructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C922222AE9D5F3005ED280 /* Infrastructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74C927EE2AE9E2FC005ED280 /* ChatModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C927E12AE9E2E9005ED280 /* ChatModule.framework */; };
-		74C927EF2AE9E2FC005ED280 /* ChatModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74C927E12AE9E2E9005ED280 /* ChatModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		74C927F02AE9E2FC005ED280 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C927E72AE9E2EE005ED280 /* Networking.framework */; };
-		74C927F12AE9E2FC005ED280 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74C927E72AE9E2EE005ED280 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		74C927F22AE9E2FC005ED280 /* SocketModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C927ED2AE9E2F2005ED280 /* SocketModule.framework */; };
-		74C927F32AE9E2FC005ED280 /* SocketModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 74C927ED2AE9E2F2005ED280 /* SocketModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		74C9242A2AE9E0AE005ED280 /* ChatModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C924292AE9E0AE005ED280 /* ChatModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		74C927E02AE9E2E9005ED280 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74C927DC2AE9E2E9005ED280 /* ChatModule.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 74C924262AE9E0AE005ED280;
-			remoteInfo = ChatModule;
-		};
-		74C927E62AE9E2EE005ED280 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74C927E22AE9E2EE005ED280 /* Networking.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 74C924402AE9E111005ED280;
-			remoteInfo = Networking;
-		};
-		74C927EC2AE9E2F2005ED280 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 74C927E82AE9E2F2005ED280 /* SocketModule.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 74C924F42AE9E189005ED280;
-			remoteInfo = SocketModule;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		74C9274A2AE9E21E005ED280 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				74C927F12AE9E2FC005ED280 /* Networking.framework in Embed Frameworks */,
-				74C927F32AE9E2FC005ED280 /* SocketModule.framework in Embed Frameworks */,
-				74C927EF2AE9E2FC005ED280 /* ChatModule.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		74C9221F2AE9D5F3005ED280 /* Infrastructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Infrastructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74C922222AE9D5F3005ED280 /* Infrastructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Infrastructure.h; sourceTree = "<group>"; };
-		74C927DC2AE9E2E9005ED280 /* ChatModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ChatModule.xcodeproj; path = ChatModule/ChatModule.xcodeproj; sourceTree = "<group>"; };
-		74C927E22AE9E2EE005ED280 /* Networking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Networking.xcodeproj; path = Networking/Networking.xcodeproj; sourceTree = "<group>"; };
-		74C927E82AE9E2F2005ED280 /* SocketModule.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SocketModule.xcodeproj; path = SocketModule/SocketModule.xcodeproj; sourceTree = "<group>"; };
+		74C924262AE9E0AE005ED280 /* ChatModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C924292AE9E0AE005ED280 /* ChatModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatModule.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		74C9221C2AE9D5F3005ED280 /* Frameworks */ = {
+		74C924232AE9E0AE005ED280 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C927F02AE9E2FC005ED280 /* Networking.framework in Frameworks */,
-				74C927F22AE9E2FC005ED280 /* SocketModule.framework in Frameworks */,
-				74C927EE2AE9E2FC005ED280 /* ChatModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		74C922152AE9D5F3005ED280 = {
+		74C9241C2AE9E0AE005ED280 = {
 			isa = PBXGroup;
 			children = (
-				74C927E82AE9E2F2005ED280 /* SocketModule.xcodeproj */,
-				74C927E22AE9E2EE005ED280 /* Networking.xcodeproj */,
-				74C927DC2AE9E2E9005ED280 /* ChatModule.xcodeproj */,
-				74C922212AE9D5F3005ED280 /* Infrastructure */,
-				74C922202AE9D5F3005ED280 /* Products */,
-				74C927472AE9E21E005ED280 /* Frameworks */,
+				74C924282AE9E0AE005ED280 /* ChatModule */,
+				74C924272AE9E0AE005ED280 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		74C922202AE9D5F3005ED280 /* Products */ = {
+		74C924272AE9E0AE005ED280 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74C9221F2AE9D5F3005ED280 /* Infrastructure.framework */,
+				74C924262AE9E0AE005ED280 /* ChatModule.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		74C922212AE9D5F3005ED280 /* Infrastructure */ = {
+		74C924282AE9E0AE005ED280 /* ChatModule */ = {
 			isa = PBXGroup;
 			children = (
-				74C922222AE9D5F3005ED280 /* Infrastructure.h */,
+				74C924292AE9E0AE005ED280 /* ChatModule.h */,
 			);
-			path = Infrastructure;
-			sourceTree = "<group>";
-		};
-		74C927472AE9E21E005ED280 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		74C927DD2AE9E2E9005ED280 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				74C927E12AE9E2E9005ED280 /* ChatModule.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		74C927E32AE9E2EE005ED280 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				74C927E72AE9E2EE005ED280 /* Networking.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		74C927E92AE9E2F2005ED280 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				74C927ED2AE9E2F2005ED280 /* SocketModule.framework */,
-			);
-			name = Products;
+			path = ChatModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		74C9221A2AE9D5F3005ED280 /* Headers */ = {
+		74C924212AE9E0AE005ED280 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74C922232AE9D5F3005ED280 /* Infrastructure.h in Headers */,
+				74C9242A2AE9E0AE005ED280 /* ChatModule.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		74C9221E2AE9D5F3005ED280 /* Infrastructure */ = {
+		74C924252AE9E0AE005ED280 /* ChatModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74C922262AE9D5F3005ED280 /* Build configuration list for PBXNativeTarget "Infrastructure" */;
+			buildConfigurationList = 74C9242D2AE9E0AE005ED280 /* Build configuration list for PBXNativeTarget "ChatModule" */;
 			buildPhases = (
-				74C9221A2AE9D5F3005ED280 /* Headers */,
-				74C9221B2AE9D5F3005ED280 /* Sources */,
-				74C9221C2AE9D5F3005ED280 /* Frameworks */,
-				74C9221D2AE9D5F3005ED280 /* Resources */,
-				74C9274A2AE9E21E005ED280 /* Embed Frameworks */,
+				74C924212AE9E0AE005ED280 /* Headers */,
+				74C924222AE9E0AE005ED280 /* Sources */,
+				74C924232AE9E0AE005ED280 /* Frameworks */,
+				74C924242AE9E0AE005ED280 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Infrastructure;
-			packageProductDependencies = (
-			);
-			productName = Infrastructure;
-			productReference = 74C9221F2AE9D5F3005ED280 /* Infrastructure.framework */;
+			name = ChatModule;
+			productName = ChatModule;
+			productReference = 74C924262AE9E0AE005ED280 /* ChatModule.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		74C922162AE9D5F3005ED280 /* Project object */ = {
+		74C9241D2AE9E0AE005ED280 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					74C9221E2AE9D5F3005ED280 = {
+					74C924252AE9E0AE005ED280 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 74C922192AE9D5F3005ED280 /* Build configuration list for PBXProject "Infrastructure" */;
+			buildConfigurationList = 74C924202AE9E0AE005ED280 /* Build configuration list for PBXProject "ChatModule" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,58 +104,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 74C922152AE9D5F3005ED280;
-			packageReferences = (
-			);
-			productRefGroup = 74C922202AE9D5F3005ED280 /* Products */;
+			mainGroup = 74C9241C2AE9E0AE005ED280;
+			productRefGroup = 74C924272AE9E0AE005ED280 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 74C927DD2AE9E2E9005ED280 /* Products */;
-					ProjectRef = 74C927DC2AE9E2E9005ED280 /* ChatModule.xcodeproj */;
-				},
-				{
-					ProductGroup = 74C927E32AE9E2EE005ED280 /* Products */;
-					ProjectRef = 74C927E22AE9E2EE005ED280 /* Networking.xcodeproj */;
-				},
-				{
-					ProductGroup = 74C927E92AE9E2F2005ED280 /* Products */;
-					ProjectRef = 74C927E82AE9E2F2005ED280 /* SocketModule.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				74C9221E2AE9D5F3005ED280 /* Infrastructure */,
+				74C924252AE9E0AE005ED280 /* ChatModule */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		74C927E12AE9E2E9005ED280 /* ChatModule.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ChatModule.framework;
-			remoteRef = 74C927E02AE9E2E9005ED280 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		74C927E72AE9E2EE005ED280 /* Networking.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Networking.framework;
-			remoteRef = 74C927E62AE9E2EE005ED280 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		74C927ED2AE9E2F2005ED280 /* SocketModule.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SocketModule.framework;
-			remoteRef = 74C927EC2AE9E2F2005ED280 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
-		74C9221D2AE9D5F3005ED280 /* Resources */ = {
+		74C924242AE9E0AE005ED280 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,7 +125,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		74C9221B2AE9D5F3005ED280 /* Sources */ = {
+		74C924222AE9E0AE005ED280 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,7 +135,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		74C922242AE9D5F3005ED280 /* Debug */ = {
+		74C9242B2AE9E0AE005ED280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -331,7 +201,7 @@
 			};
 			name = Debug;
 		};
-		74C922252AE9D5F3005ED280 /* Release */ = {
+		74C9242C2AE9E0AE005ED280 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +260,7 @@
 			};
 			name = Release;
 		};
-		74C922272AE9D5F3005ED280 /* Debug */ = {
+		74C9242E2AE9E0AE005ED280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -413,7 +283,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.afathe.Infrastructure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afathe.ChatModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -425,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		74C922282AE9D5F3005ED280 /* Release */ = {
+		74C9242F2AE9E0AE005ED280 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -448,7 +318,7 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.afathe.Infrastructure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afathe.ChatModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -463,25 +333,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74C922192AE9D5F3005ED280 /* Build configuration list for PBXProject "Infrastructure" */ = {
+		74C924202AE9E0AE005ED280 /* Build configuration list for PBXProject "ChatModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74C922242AE9D5F3005ED280 /* Debug */,
-				74C922252AE9D5F3005ED280 /* Release */,
+				74C9242B2AE9E0AE005ED280 /* Debug */,
+				74C9242C2AE9E0AE005ED280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74C922262AE9D5F3005ED280 /* Build configuration list for PBXNativeTarget "Infrastructure" */ = {
+		74C9242D2AE9E0AE005ED280 /* Build configuration list for PBXNativeTarget "ChatModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				74C922272AE9D5F3005ED280 /* Debug */,
-				74C922282AE9D5F3005ED280 /* Release */,
+				74C9242E2AE9E0AE005ED280 /* Debug */,
+				74C9242F2AE9E0AE005ED280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 74C922162AE9D5F3005ED280 /* Project object */;
+	rootObject = 74C9241D2AE9E0AE005ED280 /* Project object */;
 }
