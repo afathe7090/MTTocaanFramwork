@@ -29,9 +29,3 @@ public extension CaptainTripLocation {
         CLLocationCoordinate2D(latitude: latitute.toDouble, longitude: longtute.toDouble)
     }
 }
-
-public extension String {
-    var toDouble: Double {
-        Double(self) ?? 0.0
-    }
-}
