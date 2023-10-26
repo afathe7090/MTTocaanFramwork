@@ -1,0 +1,16 @@
+PODS:
+  - Infrastructure (1.0.0)
+
+DEPENDENCIES:
+  - Infrastructure (from `../Infrastructure`)
+
+EXTERNAL SOURCES:
+  Infrastructure:
+    :path: "../Infrastructure"
+
+SPEC CHECKSUMS:
+  Infrastructure: 4b5b073ce16fef2728ba4beb53899d5f5fd4851a
+
+PODFILE CHECKSUM: 3db7fdedc7d4ecf5fa7175954039389ed29c7d1f
+
+COCOAPODS: 1.13.0
