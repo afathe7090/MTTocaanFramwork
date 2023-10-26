@@ -20,14 +20,14 @@ public protocol ChatSocketService {
     func onExitConnectChat(on event: ServerConnectionEvent)
 }
 
-final public  class DefaultChatSocketService: ChatSocketService {
+final public class DefaultChatSocketService: ChatSocketService {
     
     private let url: URL
     private let manager: SocketManager
     private var socket: SocketIOClient { manager.defaultSocket }
     
     
-    public  init(url: URL) {
+    public init(url: URL) {
         self.url = url
         self.manager = SocketManager(socketURL: url, config: [.log(true)])
     }
